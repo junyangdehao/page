@@ -1,0 +1,33 @@
+
+#bottom {
+    height: 25px;
+    width: 100%;
+    background-color: #111111;
+    display: flex;
+}
+.bottom-navigation{
+    flex: 1;
+    /*border: 1px solid white;*/
+}
+#bottom-navigation-01{
+    justify-content: flex-end;
+
+}
+#bottom-clear{
+    height: 13px;
+    width: 13px;
+    border: 1.25px solid white;
+}
+#bottom-desktop{
+    height: 14px;
+    width: 14px;
+    border: 1.25px solid white;
+    border-radius: 50%;
+}
+#bottom-return{
+    height: 20px;
+    width: 20px;
+    /*border-top: 10px solid transparent;*/
+    /*border-bottom: 10px solid transparent;*/
+    /*border-right: 20px solid white;*/
+}
