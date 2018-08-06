@@ -1,0 +1,201 @@
+
+
+#signal {
+    height: 25px;
+    width: 100%;
+    background-color: #999999;
+    color: #ebebeb;
+    display: flex;
+    justify-content: space-between;
+    flex-flow:row nowrap;
+}
+
+#signal-left{
+    height: 25px;
+    flex: 1;
+    display: flex;
+    flex-flow: column nowrap;
+    font-size: 7px;
+    font-weight: 100;
+}
+.signal-left-operator{
+    width: 45px;
+    flex: 1;
+}
+#signal-right{
+    height: 25px;
+    flex: 2;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 2px;
+}
+/*信号开始*/
+.signl-area{
+    height: 15px;
+    width: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.signal-area00{
+    width: 2px;
+    background-color: #ebebeb;
+    border-radius: 1px;
+    margin-right: 2px;
+}
+.signal-area10{
+    width: 3px;
+    background-color: #ebebeb;
+    border-radius: 1px;
+    margin:0px 1px 0px 1px;
+}
+
+.signal-area01{
+    height: 19px;
+    width: 10px;
+    font-size: 3px;
+    display: flex;
+    flex-flow: column;
+    align-content: center;
+    justify-content: space-between;
+    /*align-items: flex-start;*/
+    margin:0px 2px 0px 2px;
+}
+.signal-area01-4g{
+    height: 9px;
+    width: 10px;
+}
+.signal-area01-flow{
+    height: 10px;
+    width: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    margin-top: 0px;
+
+}
+.signal-area01-flow01{
+    height: 8px;
+    width: 2px;
+    margin-right: 1px;
+
+    border-radius: 1px;
+}
+.signal-area01-flow01-top{
+
+    border-left: 4px solid transparent;
+    border-right: 0px solid transparent;
+    border-bottom: 4px solid #ebebeb;
+}
+.signal-area01-flow01-botton{
+    background-color: #ebebeb;
+    /*border-top: 1px solid white;*/
+    border-left: 2px solid transparent;
+    border-right: 0px solid transparent;
+    border-bottom: 3px solid #ebebeb;
+    margin-left: 2px;
+    border-radius: 0px 0px 1px 1px;
+}
+.signal-area01-flow02{
+
+    height: 8px;
+    width: 2px;
+
+}
+.signal-area01-flow02-top{
+    background-color: #999999;
+    /*border-top: 1px solid #666666;*/
+    border-left: 2px solid transparent;
+    border-right: 0px solid transparent;
+    border-bottom: 4px solid #999999;
+    border-radius: 1px 1px 0px 0px;
+    margin-right: 1px;
+}
+.signal-area01-flow02-botton{
+    /*background-color: white;*/
+    border-left: 0px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid #999999;
+}
+
+.signal-area02{
+    height: 3px;
+}
+.signal-area03{
+    height: 6px;
+}
+.signal-area04{
+    height: 9px;
+}
+.signal-area05{
+    height: 12px;
+}
+.signal-area06{
+    height: 15px;
+}
+/*信号    结束*/
+
+/*电池     开始*/
+#battery{
+    height: 30px;
+    width: 40px;
+
+}
+#battery-body{
+    height: 12px;
+    width: 24px;
+    border-radius: 2px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#battery-body-number{
+    height: 10px;
+    width: 21px;
+    font-size: 10px;
+    font-weight: 100;
+    background-color: #b4b4b4;
+    margin-left: 1px;
+}
+#battery-head{
+    height: 7px;
+    width: 1px;
+    border-radius: 0px 2px 2px 0px;
+    background-color: #eeeeee;
+}
+.battery-style{
+
+    border: 1px solid whitesmoke;
+}
+
+/*电池    结束*/
+
+#signal-time{
+    height: 25px;
+    width: 61px;
+    font-size: 13px;
+    font-weight: 100;
+}
+#signal-rate{
+    height: 25px;
+    width: 45px;
+    font-size: 13px;
+    font-weight: 100;
+    margin-right: 2px;
+
+}
+#signl-clock{
+    height: 25px;
+    width: 30px;
+    margin: 2px;
+
+}
+#signal-eye{
+    height: 25px;
+    width: 30px;
+
+}
+
+

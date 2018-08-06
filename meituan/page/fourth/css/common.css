@@ -1,0 +1,30 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 微软雅黑;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.border{
+    border: 1px solid black;
+}
+
+.xy-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.xy-right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.xy-left{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}

@@ -1,0 +1,414 @@
+
+#body {
+    flex: 1;
+    width: 100%;
+    background-color: white;
+    overflow: hidden;
+    overflow: scroll;
+}
+#body-son{
+    height: 1010px;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    position: relative;
+}
+#body-guesstwo{
+    position: absolute;
+    height: 1000px;
+    width: 100%;
+    text-align: center;
+    line-height: 57px;
+    font-size: 18px;
+    color: #a9a3a1;
+    border-bottom: 1px solid #ededed;
+    text-indent: 10px;
+    background-color: #f5f5f5;
+    opacity: 0;
+
+}
+.animation-play01{
+    /*animation-delay: 1s;*/
+    animation: transparent 3s ;
+}
+.body-loadingtwo{
+    height: 20px;
+    width: 20px;
+    margin-top: 20px;
+    background-image: url(../img/加载中.svg);
+    background-position: center;
+    background-size: 100% 100%;
+    animation: rotate 1s linear infinite;
+}
+
+@keyframes transparent {
+    1%{
+        opacity: 1;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+#body-picture{
+    height: 150px;
+    width: 100%;
+    overflow: hidden;
+    overflow: scroll;
+}
+#body-picture-son{
+    height: 140px;
+    width: 800px;
+    display: flex;
+}
+.body-picture-son{
+    background-size: cover;
+    background-position: center;
+    margin: 10px;
+    border-radius: 15px;
+    /*transform: scale(150px,300px);*/
+}
+
+#body-picture-son-01{
+     height: 120px;
+     width: 250px;
+     background-image: url("../img/01.jpg");
+ }
+#body-picture-son-02{
+    height: 120px;
+    width: 250px;
+    background-image: url("../img/02.jpg");
+}
+#body-picture-son-03{
+    height: 120px;
+    width: 250px;
+    background-image: url("../img/03.jpg");
+}
+#body-assortment{
+    height: 52px;
+    width: 100%;
+    display: flex;
+    flex-flow: nowrap;
+
+}
+.body-assortment-style{
+    flex: 1;
+    height: 54px;
+    display: flex;
+    flex-flow: column;
+    /*justify-content: flex-start;*/
+    /*margin-top: 3px;*/
+}
+.body-assortment-01{
+    height: 40px;
+    width: 60px;
+    text-align: center;
+    line-height: 40px;
+}
+.body-assortment-01color{
+    font-size: 18px;
+    font-weight: 600;
+    color: #ff430f;
+}
+.body-assortment-02color{
+    background-color: #ff430f;
+
+}
+
+.body-assortment-02{
+    height: 3px;
+    width: 25px;
+    border-radius:4px;
+    font-size: 14px;
+    font-weight: 200;
+}
+.body-middle{
+    height: 10px;
+    width: 100%;
+}
+
+#body-menu{
+    height: 40px;
+    width: 100%;
+    overflow: hidden;
+    overflow: scroll;
+}
+#body-menu-son{
+    height: 30px;
+    width: 500px;
+    display: flex;
+}
+.body-menu-style{
+    flex: 1;
+}
+
+.body-menu-02{
+    height: 25px;
+    width: 60px;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 25px;
+}
+#body-menu-select{
+    height: 25px;
+    width: 40px;
+    color: red;
+    border-radius: 15px;
+    background-color: #ffcdc4;
+}
+
+#body-guess{
+    height: 30px;
+    width: 100%;
+    text-align: center;
+    line-height: 30px;
+    font-size: 15px;
+    color: #dbd4d0;
+    border-bottom: 1px solid #ededed;
+    text-indent: 10px;
+}
+.body-loading{
+    height: 14px;
+    width: 14px;
+    background-image: url(../img/加载中.svg);
+    background-position: center;
+    background-size: 100% 100%;
+    animation: rotate 1s linear infinite;
+}
+@keyframes rotate {
+    1%{
+        transform: rotate(1deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+.body-aggregate{
+    height: 900px;
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    overflow: scroll;
+
+}
+.body-box{
+    height: 100px;
+    width: 100%;
+    flex: 1;
+    display: flex;
+
+    flex-flow: row nowrap;
+}
+.body-box-01{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 1px solid #ede6e5;
+}
+.body-box-01-chart{
+    height: 60px;
+    width: 90px;
+}
+.body-box-02{
+    height: 100px;
+    flex: 1;
+    display: flex;
+    flex-flow: column;
+    /*border: 1px solid #ededed;*/
+    border-bottom: 1px solid #ede6e5;
+}
+.body-box-02-name{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    margin: 0px 0px 0px 0px;
+
+
+}
+.body-box-02-name-01{
+    height: 28px;
+    flex: 1;
+    text-align: left;
+    color: black;
+    /*line-height: 30px;*/
+    font-size: 17px;
+    font-weight: 500;
+    /*margin: 1px 0px 0px 8px;*/
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1; /* 限制在一个块元素显示的文本的行数 */
+    -webkit-box-orient: vertical; /* 垂直排列 */
+    word-break: break-all;  /* 内容自动换行 */
+}
+.body-box-02-name-02{
+    height: 15px;
+    width: 40px;
+    text-align: right;
+    margin-right: 5px;
+    line-height: 15px;
+    font-size: 12px;
+    font-weight: 500;
+    background-color: #efefef;
+}
+.body-box-02-detailed{
+    height: 20px;
+    width: 100%;
+    font-size: 10px;
+    font-weight: 500;
+    text-align: left;
+    line-height: 30px;
+    color: #555555;
+    text-indent: 8px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1; /* 限制在一个块元素显示的文本的行数 */
+    -webkit-box-orient: vertical; /* 垂直排列 */
+    word-break: break-all;  /* 内容自动换行 */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.body-stars{
+    height: 12px;
+    width: 12px;
+    background-image: url(../img/我的-评价-星星选中.svg);
+    background-position: center;
+    background-size: 100% 100%;
+    /*margin: 1px;*/
+}
+.body-stars-no{
+    height: 12px;
+    width: 12px;
+    background-image: url(../img/我的-评价-星星未选中.svg);
+    background-position: center;
+    background-size: 100% 100%;
+    /*margin: 1px;*/
+}
+.body-stars-half{
+    height: 12px;
+    width: 12px;
+    background-image: url(../img/半星.svg);
+    background-position: center;
+    background-size: 100% 100%;
+    /*margin: 1px;*/
+}
+
+.body-box-02-pirce{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+}
+.body-box-02-pirce-01{
+    height: 15px;
+    flex: 1;
+    text-align: left;
+    line-height: 20px;
+    font-size: 10px;
+    /*font-weight: 500;*/
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /*background-color: #111111;*/
+}
+.body-box-02-pirce-01-01{
+    height: 17px;
+    flex: 1;
+    text-align: left;
+    line-height: 17px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.body-box-02-pirce-01-02{
+    height: 15px;
+    flex: 1;
+    text-align: right;
+    line-height: 15px;
+    font-size: 10px;
+    font-weight: 100;
+    margin-right: 5px;
+}
+.body-box-02-label{
+    height: 16px;
+    width: 100%;
+    display: flex;
+    /*color: red;*/
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 3px;
+}
+.body-box-02-label-01{
+    height: 13px;
+    width: 35px;
+    font-size: 12px;
+    font-weight: 100;
+    text-align: center;
+    line-height: 13px;
+    margin-left: 8px;
+    box-shadow: 0px 0px 2px red;
+    background-color: 	#FFE4C4;
+    border-radius: 2px;
+}
+.body-box-02-label-02{
+    height: 11px;
+    width: 40px;
+    font-size: 8px;
+    font-weight: 200;
+    text-align: center;
+    line-height: 11px;
+    margin-right: 5px;
+    /*background-color: 	#FFE4C4;*/
+    box-shadow: 0px 0px 2px red;
+    border-radius: 2px;
+    color: #db7a1e;
+}
+#body-box-02-label-02-00{
+    width: 105px;
+}
+.body-box-02-label-03{
+    height: 11px;
+    width: 40px;
+    font-size: 8px;
+    font-weight: 100;
+    text-align: center;
+    line-height: 11px;
+    margin-right: 5px;
+    /*background-color: 	#ededed;*/
+    /*box-shadow: 0px 0px 2px #ededed;*/
+    border: 1px solid #999999;
+    border-radius: 2px;
+}
+.body-box-02-group-buying{
+    height: 20px;
+    width: 100%;
+    display: flex;
+    /*color: red;*/
+    justify-content: flex-start;
+    align-items: center;
+}
+.body-griup-word{
+    height: 12px;
+    width: 12px;
+    background-image: url(../img/团.svg);
+    background-position: center;
+    background-size: 100% 100%;
+}
+.body-box-02-group-buying-word{
+    height: 12px;
+    flex: 1;
+    text-align: left;
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

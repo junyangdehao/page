@@ -1,0 +1,329 @@
+
+#body {
+    flex: 1;
+    width: 100%;
+    background-color: white;
+    overflow: hidden;
+    overflow: scroll;
+}
+#body-son{
+    height: 1280px;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    position: relative;
+}
+
+
+
+#body-menu{
+    height: 30px;
+    width: 100%;
+    overflow: hidden;
+    overflow: scroll;
+}
+#body-menu-son{
+    height: 30px;
+    width: 500px;
+    display: flex;
+    background-color: white;
+}
+
+.body-menu-style{
+    flex: 1;
+    display: flex;
+    flex-flow: column;
+}
+
+#body-menu-01{
+
+    height: 35px;
+    width: 35px;
+
+}
+
+.body-menu-02{
+    height: 25px;
+    width: 60px;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 25px;
+    color: #969696;
+}
+.body-menu-02-color{
+
+    color: #111111;
+}
+.body-assortment-02{
+    height: 3px;
+    width: 30px;
+    border-radius:4px;
+    font-size: 14px;
+    font-weight: 200;
+}
+.body-assortment-02color{
+    background-color: #40b9d0;
+}
+
+
+#body-guess{
+    position: absolute;
+    height: 1000px;
+    width: 100%;
+    text-align: center;
+    line-height: 57px;
+    font-size: 18px;
+    color: #a9a3a1;
+    border-bottom: 1px solid #ededed;
+    text-indent: 10px;
+    background-color: #f5f5f5;
+    opacity: 0;
+
+}
+.animation-play01{
+    /*animation-delay: 1s;*/
+     animation: transparent 1s ;
+}
+.body-loading{
+    height: 20px;
+    width: 20px;
+    margin-top: 20px;
+    background-image: url(../img/加载中.svg);
+    background-position: center;
+    background-size: 100% 100%;
+    animation: rotate 1s linear infinite;
+}
+@keyframes rotate {
+    1%{
+        transform: rotate(1deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes transparent {
+    1%{
+        opacity: 1;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes priority {
+    1%{
+        z-index: 1;
+    }
+
+    100%{
+        z-index: -1;
+    }
+}
+#body-eject{
+    height: 30px;
+    width: 100%;
+    position: absolute;
+    background-color: #fff6c0;
+    color: #f19c00;
+    font-weight: 100;
+    z-index: -1;
+    animation: priority 3s ease-in-out 2.5s;
+}
+.body-update-content{
+    height: 235px;
+    width: 100%;
+}
+.body-update-content01{
+    height: 165px;
+}
+.body-update-content-title{
+    height: 50px;
+    width: 100%;
+
+}
+.body-update-content-title01{
+    height: 40px;
+    width: 100%;
+    margin-left: 10px;
+}
+.body-update-content-picture{
+    height: 150px;
+    width: 100%;
+}
+.body-update-content-picture-yes{
+    height: 140px;
+    flex: 1;
+    margin: 0px 10px 0px 10px;
+    background-image: url(../img/new01.png);
+    background-position: center;
+    background-size: cover;
+}
+.body-update-content-picture-02{
+    height: 80px;
+}
+.body-update-content-picture-yes01{
+    height: 75px;
+    flex: 1;
+    margin: 0px 5px 0px 10px;
+    background-image: url(../img/new02.png);
+    background-position: center;
+    background-size: cover;
+}
+.body-update-content-picture-yes02{
+    height: 75px;
+    flex: 1;
+    margin: 0px 5px 0px 5px;
+    background-image: url(../img/new03.png);
+    background-position: center;
+    background-size: cover;
+}
+.body-update-content-picture-yes03{
+    height: 75px;
+    width: 100px;
+    margin: 0px 10px 0px 5px;
+    background-image: url(../img/new04.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.body-update-content-source{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    font-size: 13px;
+    text-indent: 10px;
+    color: #6e6e6e;
+}
+.body-update-content-source-01{
+        margin-right: 8px;
+}
+.body-update-content-source-02{
+
+}
+.body-meituanzhuanti{
+    height: 184 px;
+    width: 100%;
+}
+.body-meituanzhuanti-01{
+    height: 30px;
+    width: 100%;
+    display: flex;
+}
+.body-meituanzhuanti-01-label{
+    height: 18px;
+    width: 36px;
+    background-color: #f46c4a;
+    color: white;
+    border-radius: 1px;
+    margin-left: 10px;
+    font-size: 12px;
+}
+.body-meituanzhuanti-01-font{
+    height: 30px;
+    flex: 1;
+    margin-left: 5px;
+}
+.body-meituanzhuanti-02{
+    height: 150px;
+    width: 100%;
+}
+.body-meituanzhuanti-02-picture{
+    height: 147px;
+    width: 100%;
+    margin: 0px 10px 0px 10px;
+    background-image: url(../img/new05.png);
+    background-position: center;
+    background-size: cover;
+}
+.body-update-content-small{
+    height: 80px;
+    width: 100%;
+    display: flex;
+}
+.body-update-content-small-left{
+    height: 80px;
+    flex: 1;
+}
+.body-update-content-small-title{
+    margin-left: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* 限制在一个块元素显示的文本的行数 */
+    -webkit-box-orient: vertical; /* 垂直排列 */
+    word-break: break-all;  /* 内容自动换行 */
+}
+.body-update-content-small-source{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    font-size: 13px;
+    text-indent: 10px;
+    color: #6e6e6e;
+
+}
+.body-update-content-small-right{
+    height: 80px;
+    width: 100px;
+}
+.body-update-content-small-right-picture{
+    height: 70px;
+    width: 90px;
+    /*margin: 0px 10px 0px 10px;*/
+    background-image: url(../img/new02.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#body-guess01{
+    height: 30px;
+    width: 100%;
+    text-align: center;
+    line-height: 30px;
+    font-size: 15px;
+    color: #dbd4d0;
+    /*border-bottom: 1px solid #ededed;*/
+    text-indent: 10px;
+}
+.body-loading01{
+    height: 14px;
+    width: 14px;
+    background-image: url(../img/加载中.svg);
+    background-position: center;
+    background-size: 100% 100%;
+    animation: rotate01 1s linear infinite;
+}
+@keyframes rotate01 {
+    1%{
+        transform: rotate(1deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.body-update-content-picture-chage01{
+    background-image: url(../img/new05.jpg);
+}
+.body-update-content-picture-chage02{
+    background-image: url(../img/new03.jpg);
+}
+.body-update-content-picture-chage03{
+    background-image: url(../img/new04.jpg);
+}
+.body-update-content-picture-chage04{
+    background-image: url(../img/new06.jpg);
+}
+.body-update-content-picture-chage05{
+    background-image: url(../img/new07.jpg);
+}
+
+.body-update-content-picture-chage06{
+    background-image: url(../img/new08.jpg);
+}
+.body-update-content-small-right-picture-chage{
+    background-image: url(../img/看01.jpg);
+}
